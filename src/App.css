@@ -1,0 +1,50 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-content {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.section {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.drag-item {
+  padding: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  margin: 5px;
+  cursor: move;
+  border-radius: 4px;
+}
+
+.drop-zone {
+  min-height: 100px;
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.drop-zone.active {
+  border-color: #2196f3;
+  background: rgba(33, 150, 243, 0.1);
+}
