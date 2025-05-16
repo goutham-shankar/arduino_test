@@ -4,7 +4,7 @@ import { HTML5Backend } from 'react-dnd-html5-backend';
 import BoardSelector from './components/BoardSelector';
 import DeviceSelector from './components/DeviceSelector';
 import LogicBuilder from './components/LogicBuilder';
-import CodeGenerator from './components/CodeGenerator';
+
 import './App.css';
 
 function App() {
@@ -46,14 +46,7 @@ function App() {
             />
           </div>
 
-          <div className="section">
-            <h2>4. Generated Code</h2>
-            <CodeGenerator
-              board={selectedBoard}
-              devices={selectedDevices}
-              logic={logicConditions}
-            />
-          </div>
+          
         </div>
       </div>
     </DndProvider>
